@@ -1,6 +1,5 @@
 from google.colab import drive
 drive.mount('/content/drive')
-%%writefile app.py
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
